@@ -1,0 +1,65 @@
+/* Corpo da página */
+body {                            /* Seleciona a página inteira */
+    font-family: Arial, Helvetica, sans-serif; /* Define a fonte */
+    background-color: #ffffff;   /* Define fundo branco */
+}
+/* Container centralizador */
+.container {                      /* Seleciona o elemento com classe container */
+    min-height: 100vh;            /* Altura mínima igual à tela */
+    display: flex;                /* Ativa o Flexbox */
+    justify-content: center;      /* Centraliza na horizontal */
+    align-items: center;          /* Centraliza na vertical */
+    padding: 20px;                /* Espaço interno */
+}
+/* Card principal */
+.card {                           /* Seleciona o bloco principal */
+    background-color: #b97a57;    /* Cor de fundo marrom */
+    width: 100%;                  /* Ocupa toda largura disponível */
+    max-width: 400px;             /* Limita largura máxima */
+    padding: 30px 20px;           /* Espaço interno (cima/baixo - lados) */
+    border-radius: 10px;          /* Bordas arredondadas */
+    text-align: center;           /* Centraliza o texto */
+}
+/* Título */
+.card h1 {                        /* Seleciona h1 dentro da classe card */
+    color: #ffffff;               /* Cor branca do texto */
+    margin-bottom: 20px;          /* Espaço abaixo do título */
+    
+}
+/* Logo circular */
+.logo {                           /* Seleciona área da imagem */
+    width: 200px;                 /* Largura da área */
+    height: 200px;                /* Altura da área */
+    background-color: #ffffff;    /* Fundo branco */
+    border-radius: 50%;           /* Forma de círculo */
+    margin: 0 auto 20px auto;      /* Centraliza e cria espaço embaixo */
+    display: flex;                /* Ativa Flexbox */
+    justify-content: center;      /* Centraliza horizontalmente */
+    align-items: center;          /* Centraliza verticalmente */
+}
+/* Imagem da logo */
+.logo img {                       /* Seleciona a imagem dentro de .logo */
+    width: 180px;                 /* Largura da imagem */
+    height: 180px;                /* Altura da imagem */
+    border-radius: 50%;           /* Deixa a imagem redonda */
+    object-fit: cover;            /* Ajusta sem distorcer */
+}
+/* Texto descritivo */
+.descricao {                      /* Seleciona o parágrafo da descrição */
+    color: #ffffff;               /* Cor branca */
+    font-size: 0.9rem;            /* Tamanho do texto */
+    line-height: 1.6;             /* Espaço entre linhas */
+    margin-bottom: 25px;          /* Espaço abaixo */
+}
+/* Área dos links */
+.links {                          /* Seleciona a área dos links */
+    display: flex;                /* Deixa os links lado a lado */
+    justify-content: space-between; /* Um em cada lado */
+}
+/* Links */
+.links a {                        /* Seleciona os links dentro de .links */
+    color: #ffffff;               /* Cor branca */
+    text-decoration: underline;   /* Sublinhado */
+    font-weight: bold;            /* Texto em negrito */
+}
+

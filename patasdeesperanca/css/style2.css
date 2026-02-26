@@ -1,0 +1,38 @@
+body {font-family: Arial, sans-serif; /* Define a fonte principal */}
+.container {/* Área que centraliza o card na tela */
+    height: 100vh;          /* Ocupa toda a altura da tela */
+    display: grid;          /* Ativa o sistema Grid */
+    place-items: center;   /* Centraliza na vertical e horizontal */}
+.card {/* Caixa principal do conteúdo */
+    background: #b97a57;    /* Cor de fundo do card */
+    color: #fff;            /* Cor do texto (branco) */
+    padding: 30px 20px;     /* Espaço interno */
+    width: 420px;           /* Largura fixa */
+    border-radius: 10px;    /* Bordas arredondadas */
+    text-align: center;    /* Centraliza textos */
+}
+.animal {/* Área que agrupa foto + informações */
+    display: flex;          /* Ativa o Flexbox */
+    gap: 20px;              /* Espaço entre foto e texto */
+    margin: 30px 0;         /* Espaço acima e abaixo */
+    text-align: left;      /* Alinha texto à esquerda */
+}
+.foto {/* Moldura circular da imagem */
+    width: 150px;            /* Largura */
+    height: 150px;           /* Altura */
+    background: #fff;       /* Fundo branco */
+    border-radius: 50%;     /* Forma circular */
+    display: grid;          /* Usa Grid */
+    place-items: center;   /* Centraliza a imagem */
+}
+.foto img {/* Imagem dentro da moldura */
+    width: 150px;            /* Largura da imagem */
+    height: 150px;           /* Altura da imagem */
+    border-radius: 50%;     /* Deixa a imagem redonda */
+}
+.info p {/* Parágrafo dentro da área info */
+    font-size: 0.9rem;      /* Tamanho da fonte menor */
+}
+.voltar {/* Link para voltar à página anterior */
+    color: #fff;            /* Cor branca */
+}

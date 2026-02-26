@@ -1,0 +1,42 @@
+body {/* Estilo geral da página */
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    height: 100vh;                  /* Altura da tela */
+    display: grid;                  /* Centralização */
+    place-items: center;}
+.card {/* Card principal */
+    background: #b97a57; /* Cor de fundo */
+    color: #fff;         /* Cor do texto */
+    width: 420px;        /* Largura fixa */
+    padding: 20px;       /* Espaçamento interno */
+    border-radius: 10px; /* Bordas arredondadas */}
+h1 {/* Título */
+    text-align: center; /* Centraliza texto */
+    margin-bottom: 15px;
+}
+label, p {/* Textos e labels */
+    display: block;     /* Quebra linha */
+    margin-top: 10px;
+}
+input {/* Campos de entrada */
+    width: 100%;        /* Ocupa toda largura */
+}
+.botoes {/* Botões */
+    text-align: center;
+    margin: 15px 0;
+}
+.redes {/* Ícones */
+    text-align: center;
+}
+.redes img {/* Tamanho dos ícones */
+    width: 25px;        
+}
+.voltar {/* Link voltar */
+    display: block;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+
+
